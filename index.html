@@ -37,84 +37,84 @@
 
         <!-- Icon Family -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
         
 
 
     </head>
-    <body>
+    <body id="home">
 
     <!-- header -->
       <header id="header" class="navbar navbar-default affix-top" data-spy="affix" data-offset-top="400">
         <div class="container">
-          <a alt="Mea" class="site-logo" href="index.html">
+          <a alt="Mea" class="site-logo" href="#home">
             <h2>Vora Clinic</h2>
           </a>
           <nav role="navigation" id="nav-main" class="okayNav">
             <ul class="nav navbar-nav">
               <li class="active dropdown sub-menu">
-                <a alt="Mea" class="dropdown-toggle nav-link" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Home</a>
+                <a alt="Mea" class="dropdown-toggle nav-link" href="#home" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Home</a>
                 
               </li>
               <li  class="dropdown sub-menu">
-                <a alt="Mea" class="dropdown-toggle nav-link" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us</a>
+                <a alt="Mea" class="dropdown-toggle nav-link" href="#about-us" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">About Us</a>
                 
               </li>
               <li  class="dropdown sub-menu">
-                <a alt="Mea" class="dropdown-toggle nav-link" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Services</a>
+                <a alt="Mea" class="dropdown-toggle nav-link" href="#services" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Services</a>
                 
               </li>
               <li  class="dropdown sub-menu">
-                <a alt="Mea" class="dropdown-toggle nav-link" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Gallery</a>
+                <a alt="Mea" class="dropdown-toggle nav-link" href="#testimonial" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Testimonial</a>
                 
               </li>
               <li  class="dropdown sub-menu">
-                <a alt="Mea" class="dropdown-toggle nav-link" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Testimonial</a>
+                <a alt="Mea" class="dropdown-toggle nav-link" href="#gallery" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Gallery</a>
                 
               </li>
               
-              <!-- <li class="dropdown sub-menu">
-                <a alt="Mea" class="dropdown-toggle nav-link" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Blog</a>
-                <div class="dropdown-menu sub-menu-panel" aria-labelledby="dropdownMenu1">
-                  <a alt="Mea" class="sub-menu-item" href="blog.html">Blog Page</a>
-                  <a alt="Mea" class="sub-menu-item" href="blog-single.html">Blog Single Page</a>
-                </div>
-              </li> -->
               <li class="dropdown sub-menu">
-                <a alt="Mea" class="dropdown-toggle nav-link" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Contact Us</a>
-                
-              </li>
+                  <a alt="Mea" class="dropdown-toggle nav-link" href="#contact-us" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Contact Us</a>
+                  
+                </li>
+                      <!-- <li class="dropdown sub-menu">
+                        <a alt="Mea" class="dropdown-toggle nav-link" href="#" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Blog</a>
+                        <div class="dropdown-menu sub-menu-panel" aria-labelledby="dropdownMenu1">
+                          <a alt="Mea" class="sub-menu-item" href="blog.html">Blog Page</a>
+                          <a alt="Mea" class="sub-menu-item" href="blog-single.html">Blog Single Page</a>
+                        </div>
+                      </li> -->
             </ul>
             <!-- Mobile Menu Start -->
             <ul class="wpb-mobile-menu">
               <li>
-                <a class="active" href="#">
+                <a class="active" href="#home">
                 Home
                 </a>
-                
               </li>
               <li>
-                <a href="#">
+                <a href="#about-us">
                 About Us
                 </a>
-                
               </li>
               <li>
-                <a href="#">
+                <a href="#services">
                 Services
                 </a>
-                
               </li>
               <li>
-                <a href="#">
-                Gallery
-                </a>
-                
-              </li>
-              <li>
-                <a href="#">
+                <a href="#testimonial">
                 Testimonial
                 </a>
-                
+              </li>
+              <li>
+                <a href="#gallery">
+                Gallery
+                </a>
+              </li>
+              <li>
+                <a href="#contact-us">Contact Us</a>
               </li>
               <!-- <li>
                 <a href="#">
@@ -133,12 +133,6 @@
                 </ul>
               </li> -->
               
-              <li>
-                
-                    <a href="contact-us.html">Contact Us</a>
-
-                
-              </li>
             </ul>
             <!-- Mobile Menu End -->
           </nav>
@@ -157,9 +151,9 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12 text-left">
-                                    <h1 class="slideInLeft animated wow hero-heading" data-wow-delay=".6s">Title 1</h1>
-                                    <h5 class="fadeInDown wow animated hero-sub-heading" data-wow-delay=".8s">Lorem ipsum dolor sit amet.</h5>
-                                    <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common" data-wow-delay=".9s"><i class="material-icons">&#xE90F;</i> Explore<div class="ripple-container"></div></a>
+                                    <h1 class="slideInLeft animated wow hero-heading" data-wow-delay=".2s">Title 1</h1>
+                                    <h5 class="fadeInDown wow animated hero-sub-heading" data-wow-delay=".3s">Lorem ipsum dolor sit amet.</h5>
+                                    <a href="javascript:void(0)" class="animated fadeInUp wow btn btn-common" data-wow-delay=".4s"><i class="material-icons">&#xE90F;</i> Explore<div class="ripple-container"></div></a>
                                 </div>
                             </div>
                         </div>
@@ -185,7 +179,7 @@
                     <div class="slider-content">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-12 text-center">
+                                <div class="col-md-12 text-left">
                                     <h1 class="animated wow bounceInUp hero-heading" data-wow-delay=".6s">Title 3</h1>
                                     <h5 class="animated4 hero-sub-heading">Lorem ipsum dolor sit amet. </h5>
                                     <a href="javascript:void(0)" class="animated4 btn btn-common"><i class="material-icons">&#xE8F4;</i> Learn More</a>
@@ -206,16 +200,16 @@
         <!-- Main Carousel Section End-->
 
         <!-- About Section -->
-        <section class="mea-about-section section-padding">
+        <section class="mea-about-section section-padding" id="about-us">
             <div class="container">
                 <div class="row">
                     <!-- Section Titile -->
-                    <div class="col-md-6 mea-title-section wow animated slideInLeft" data-wow-delay=".2s">
+                    <div class="col-md-6 mea-title-section wow animated slideInLeft" data-wow-delay=".7s">
                        
                         <h1 class="section-title">About voraclinic</h1>
                     </div>
                     <!-- Section Quote -->
-                    <div class="col-md-6 mea-section-quote wow animated slideInRight" data-wow-delay=".2s">
+                    <div class="col-md-6 mea-section-quote wow animated slideInRight" data-wow-delay=".7s">
                         <blockquote>
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci accusantium quas facere, ipsam laborum iure sequi similique explicabo praesentium nostrum saepe id. Nemo deleniti perferendis porro molestias possimus nam asperiores!</p>                        </blockquote>
                     </div>
@@ -251,143 +245,479 @@
 
 
         <!-- Services Section -->
-        <section class="mea-service-section section-padding">
-            <div class="container">
-                <div class="row">
+        <section class="section-dark" id="services">
+            <div class="container ">
+                
                     <!-- Section Titile -->
-                    <div class=" mea-title-section wow animated slideInLeft align-center" data-wow-delay=".2s">
-                        
-                        <h1 class="section-title ">Services</h1>
-                    </div>
+                    
+                    <div class="row mt-50">
+                            <div class="col-md-12 ">
+                                <h1 class="section-title wow animated slideInRight "  data-wow-delay=".3s">Services</h1>
+                                <div class="border"></div>
+
+                            </div>
+                        </div>
                     <!-- Section Quote -->
                     
-                </div>
+                
                 <br>
                 <br>
 
                 <!-- Services Widget Section -->
                 <div class="row mt-100">
-                    <!-- Service Widgets -->
-                    <div class="col-md-4 single-service-widget wow animated fadeInUp" data-wow-delay=".3s">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="material-icons pulse-shrink">&#xE922;</i>
+
+                        <div class="col-md-4 wow animated fadeInUp box-shadow mt-20" data-wow-delay=".3s">
+                                <div class="text-center p-10">
+                                    <h2>Kidney Problems & Stone</h2>
+                                    <img src="assets/images/services/service-1.jpg" alt="" class="img-fluid" width="100%" height="250">
+                                    <br>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal1">
+                                            More Info <i class="material-icons">info</i>
+                                    </button>
+                                </div>
                             </div>
-                            <div class="media-body">
-                                <h2 class="subtitle">Lorem ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, ipsam.</p>
-                            </div>
+
+                    
+
+                    <div class="col-md-4 wow animated fadeInUp box-shadow mt-20" data-wow-delay=".4s">
+                        <div class="text-center">
+                            <h2>सांधे दुखी</h2>
+                            <img src="assets/images/services/service-2.jpg" alt="" class="img-fluid" width="100%" height="250">
+                            <br>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal2">
+                                    More Info <i class="material-icons">info</i>
+                            </button>
                         </div>
                     </div>
-                    <!-- Service Widgets -->
-                    <div class="col-md-4 single-service-widget wow animated fadeInUp" data-wow-delay=".4s">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="material-icons pulse-shrink">&#xE919;</i>
-                            </div>
-                            <div class="media-body">
-                                <h2 class="subtitle">Lorem </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, ipsam.</p>
-                            </div>
+
+                    <div class="col-md-4 wow animated fadeInUp box-shadow mt-20" data-wow-delay=".5s">
+                        <div class="text-center">
+                            <h2>मणक्याचे आजार</h2>
+                            <img src="assets/images/services/service-3.jpg" alt="" class="img-fluid" width="100%" height="250">
+                            <br>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal3">
+                                    More Info <i class="material-icons">info</i>
+                            </button>
                         </div>
                     </div>
-                    <!-- Service Widgets -->
-                    <div class="col-md-4 single-service-widget wow animated fadeInUp" data-wow-delay=".5s">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="material-icons pulse-shrink">&#xE8D1;</i>
-                            </div>
-                            <div class="media-body">
-                                <h2 class="subtitle">Lorem ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, ipsam.</p>
-                            </div>
+
+                  
+
+                    <div class="col-md-4 wow animated fadeInUp box-shadow mt-20" data-wow-delay=".6s">
+                        <div class="text-center">
+                            <h2>Abdomen Problems</h2>
+                            <img src="assets/images/services/service-4.jpg" alt="" class="img-fluid" width="100%" height="250">
+                            <br>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal4">
+                                    More Info <i class="material-icons">info</i>
+                            </button>
                         </div>
                     </div>
-                    <!-- Service Widgets -->
-                    <div class="col-md-4 single-service-widget wow animated fadeInUp" data-wow-delay=".6s">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="material-icons pulse-shrink">&#xE8AF;</i>
-                            </div>
-                            <div class="media-body">
-                                <h2 class="subtitle">Lorem </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, ipsam.</p>
-                            </div>
+
+                    <div class="col-md-4 wow animated fadeInUp box-shadow mt-20" data-wow-delay=".7s">
+                        <div class="text-center">
+                            <h2>कर्णनाद </h2>
+                            <img src="assets/images/services/service-5.jpg" alt="" class="img-fluid" width="100%" height="250">
+                            <br>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal5">
+                                    More Info <i class="material-icons">info</i>
+                            </button>
                         </div>
                     </div>
-                    <!-- Service Widgets -->
-                    <div class="col-md-4 single-service-widget wow animated fadeInUp" data-wow-delay=".7s">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="material-icons pulse-shrink">&#xE8FC;</i>
-                            </div>
-                            <div class="media-body">
-                                <h2 class="subtitle">Lorem ipsum</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, ipsam.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Service Widgets -->
-                    <div class="col-md-4 single-service-widget wow animated fadeInUp" data-wow-delay=".8s">
-                        <div class="media">
-                            <div class="media-left">
-                                <i class="material-icons pulse-shrink">&#xE86F;</i>
-                            </div>
-                            <div class="media-body">
-                                <h2 class="subtitle">Lorem </h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, ipsam.</p>
+
+                    <div class="col-md-4 wow animated fadeInUp box-shadow mt-20" data-wow-delay=".8s">
+                            <div class="text-center">
+                                <h2>मुळव्याध</h2>
+                                <img src="assets/images/services/service-6.png" alt="" class="img-fluid" width="100%" height="250">
+                                <br>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal6">
+                                        More Info <i class="material-icons">info</i>
+                                </button>
                             </div>
                         </div>
-                    </div>
+
+
+
+
+                   
+
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                            <h2 class="modal-title text-center" id="myModalLabel1">Kidney Problems & Urinary Calculi (Stone) </h2>
+                                        </div>
+                                        <div class="row modal-body">
+                                            <div class="col-md-6">
+                                                <ul>
+                                                    <li>Urinary Calculi</li>
+                                                    <li>Neppritis</li>
+                                                    <li>Impaired Renal Function</li>
+                                                    <li>Renal Failure (No need of Dialysis)</li>
+                                                    <li>Hematuria (Blood in Urine)</li>
+                                                    <li>Burning Micturition</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="assets/images/services/service-1.jpg" alt="" class="img-fluid" width="100%" height="250">
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="modal-footer">
+                                        <button type="button" class="btn btn-common" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h2 class="modal-title text-center" id="myModalLabel2">सांधे दुखी</h2>
+                                    </div>
+                                    <!-- <div class="modal-body">
+                                        <ul>
+                                            <li>सांध्यांना  सूज येणे</li>
+                                            <li>सांधे झिजणे</li>
+                                            <li>सायनोव्हियल फ्लूईड कमी होणे</li>
+                                            <li>सांध्यां मधून आवाज येणे</li>
+                                            <li>सांधे आखडणे</li>
+                                            <li>सांधे वाकडे होणे</li>
+                                            <hr>
+                                            <li>Arthritis</li>
+                                            <li>Osteoarthritis</li>
+                                            <li>Rheumatoid Arthritis</li>
+                                            <li>Decreased Synovial Fluid</li>
+                                            
+                                        </ul>
+                                    </div> -->
+                                    <div class="row modal-body">
+                                            <div class="col-md-6">
+                                                <ul>
+                                                        <li>सांध्यांना  सूज येणे</li>
+                                                        <li>सांधे झिजणे</li>
+                                                        <li>सायनोव्हियल फ्लूईड कमी होणे</li>
+                                                        <li>सांध्यां मधून आवाज येणे</li>
+                                                        <li>सांधे आखडणे</li>
+                                                        <li>सांधे वाकडे होणे</li>
+                                                        <hr>
+                                                        <li>Arthritis</li>
+                                                        <li>Osteoarthritis</li>
+                                                        <li>Rheumatoid Arthritis</li>
+                                                        <li>Decreased Synovial Fluid</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="assets/images/services/service-2.jpg" alt="" class="img-fluid" width="100%" height="250">
+                                            </div>
+                                        </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-common" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal -->
+                    <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h2 class="modal-title text-center" id="myModalLabel3">मणक्याचे आजार</h2>
+                                    </div>
+                                    <!-- <div class="modal-body">
+                                        <ul>
+                                            <li>स्लिप डिस्क</li>
+                                            <li>मणक्याची झिज</li>
+                                            <li>हातापायात मुंग्या येणे</li>
+                                            <li>हातपाय दुखणे  / वेदना होणे</li>
+                                            <li>चक्कर येणे</li>
+                                            <li>हातपाय कमजोर होणे</li>
+                                            <li>कंबर दुखणे</li>
+                                            <hr>
+                                            <li>Cervical Pain</li>
+                                            <li>Backache</li>
+                                            <li>Slip Disc</li>
+                                            <li>Spine Erosion</li>
+                                            <li>Giddiness</li>
+                                            <li>Pain in Limbs</li>
+                                            <li>Weakness in Limbs</li>
+                                            <li>Tingling Dullness in Limbs</li>
+                                           
+                                        </ul>
+                                    </div> -->
+                                    <div class="row modal-body">
+                                            <div class="col-md-6">
+                                                <ul>
+                                                    <li>स्लिप डिस्क</li>
+                                                    <li>मणक्याची झिज</li>
+                                                    <li>हातापायात मुंग्या येणे</li>
+                                                    <li>हातपाय दुखणे  / वेदना होणे</li>
+                                                    <li>चक्कर येणे</li>
+                                                    <li>हातपाय कमजोर होणे</li>
+                                                    <li>कंबर दुखणे</li>
+                                                    <hr>
+                                                    <li>Cervical Pain</li>
+                                                    <li>Backache</li>
+                                                    <li>Slip Disc</li>
+                                                    <li>Spine Erosion</li>
+                                                    <li>Giddiness</li>
+                                                    <li>Pain in Limbs</li>
+                                                    <li>Weakness in Limbs</li>
+                                                    <li>Tingling Dullness in Limbs</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="assets/images/services/service-3.jpg" alt="" class="img-fluid" width="100%" height="250">
+                                            </div>
+                                        </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-common" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal -->
+                    <div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel4">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h2 class="modal-title text-center" id="myModalLabel4">Abdomen Problems</h2>
+                                    </div>
+                                    <!-- <div class="row">
+                                        <div class="col-md-6">
+                                                <div class="modal-body">
+                                                        <ul>
+                                                            <li>अपचन करपट ढेकरा</li>
+                                                            <li>ग्यसेस आम्लपित्त</li>
+                                                            <li>वारंवार पोट दुखणे</li>
+                                                            <li>भूख  न लागणे</li>
+                                                            <li>पोट साफ न होणे</li>
+                                                            <li>डोके दुखणे</li>
+                                                            <hr>
+                                                            <li>Acidity</li>
+                                                            <li>Indigestion</li>
+                                                            <li>Flatulance (Gases)</li>
+                                                            <li>Lack of Appetite</li>
+                                                            <li>Chronic Constipation</li>
+                                                            <li>Headache</li>
+                                                            
+                                                            
+                                                        </ul>
+                                                    </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                                <div class="modal-body">
+                                                        
+                                                    </div>
+                                        </div>
+                                    </div> -->
+
+                                    <div class="row modal-body">
+                                            <div class="col-md-6">
+                                                <ul>
+                                                        <li>अपचन करपट ढेकरा</li>
+                                                        <li>ग्यसेस आम्लपित्त</li>
+                                                        <li>वारंवार पोट दुखणे</li>
+                                                        <li>भूख  न लागणे</li>
+                                                        <li>पोट साफ न होणे</li>
+                                                        <li>डोके दुखणे</li>
+                                                        <hr>
+                                                        <li>Acidity</li>
+                                                        <li>Indigestion</li>
+                                                        <li>Flatulance (Gases)</li>
+                                                        <li>Lack of Appetite</li>
+                                                        <li>Chronic Constipation</li>
+                                                        <li>Headache</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="assets/images/services/service-4.jpg" alt="" class="img-fluid" width="100%" height="250">
+                                            </div>
+                                        </div>
+                                    
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-common" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Modal -->
+                    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel5">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h2 class="modal-title text-center" id="myModalLabel5">कर्णनाद </h2>
+                                    </div>
+                                    <!-- <div class="modal-body">
+                                        <ul>
+                                            <li>कानात आवाज येणे </li>
+                                            <li>ऐकू कमी येणे </li>
+                                            <li>तोल जाणे</li>
+                                            <li>चक्कर येणे</li>
+                                            <li>डोकं दुखणे</li>
+                                            <li>अर्धशिशी</li>
+                                            <hr>
+                                            <li>Ringing Bell Sound</li>
+                                            <li>Imbalance</li>
+                                            <li>Vertigo</li>
+                                            
+                                        </ul>
+                                    </div> -->
+
+                                    <div class="row modal-body">
+                                            <div class="col-md-6">
+                                                <ul>
+                                                    <li>कानात आवाज येणे </li>
+                                                    <li>ऐकू कमी येणे </li>
+                                                    <li>तोल जाणे</li>
+                                                    <li>चक्कर येणे</li>
+                                                    <li>डोकं दुखणे</li>
+                                                    <li>अर्धशिशी</li>
+                                                    <hr>
+                                                    <li>Ringing Bell Sound</li>
+                                                    <li>Imbalance</li>
+                                                    <li>Vertigo</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="assets/images/services/service-5.jpg" alt="" class="img-fluid" width="100%" height="250">
+                                            </div>
+                                        </div>
+                                    
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-common" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                     <!-- Modal -->
+                     <div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel6">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                        <h2 class="modal-title text-center" id="myModalLabel6">मुळव्याध</h2>
+                                    </div>
+                                    <!-- <div class="modal-body">
+                                        <ul>
+                                            <li>रक्ती मुळव्याध</li>
+                                            <li>कोब</li>
+                                            <li>फिशर</li>
+                                            <li>प्रोलंड रेक्टम</li>
+                                            <hr>
+                                            <li>Piles</li>
+                                            <li>Fissure</li>
+                                            <li>Prolapsed Rectum</li>
+                                        </ul>
+                                    </div> -->
+
+                                    <div class="row modal-body">
+                                            <div class="col-md-6">
+                                                <ul>
+                                                        <li>रक्ती मुळव्याध</li>
+                                                        <li>कोब</li>
+                                                        <li>फिशर</li>
+                                                        <li>प्रोलंड रेक्टम</li>
+                                                        <hr>
+                                                        <li>Piles</li>
+                                                        <li>Fissure</li>
+                                                        <li>Prolapsed Rectum</li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="assets/images/services/service-6.png" alt="" class="img-fluid" width="100%" height="250">
+                                            </div>
+                                        </div>
+                                    <div class="modal-footer">
+                                    <button type="button" class="btn btn-common" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                   
                 </div>
             </div>
         </section>
         <!-- Services Section End -->        
 
-<section class="section text-center">
-      <div class="container">
-                <!-- Start Animations Text -->
-                <h1>
 
-                </h1>
-              <br>
-                <!-- End Animations Text -->
-
-                <!-- Start Buttons -->
-        </div>
-      
-    </section>
 
         <!-- Testimonial Section -->
-        <section class="mea-testimonial-section section-padding">
+        <section class="mea-testimonial-section section-padding" id="testimonial">
             <div class="container">
-                <div class="row">
-                    <!-- Section Titile -->
-                    <div class="col-md-6 mea-title-section wow animated slideInLeft" data-wow-delay=".2s">
-                        
-                        <h1 class="section-title">Testimonial</h1>
-                        <div class="section-image mt-100 clearfix">
-                            <img src="assets/images/section-image1.png" class="mt-100 img-responsive" alt="Thumbs Up Icon">
+                    <div class="row">
+                            <div class="col-md-12">
+                                <h1 class="section-title wow animated slideInRight"  data-wow-delay=".3s">Testimonials</h1>
+                                <div class="border"></div>
+
+                            </div>
                         </div>
+                        <div class="row mt-50">
+                            
+                <div class="row mt-50">
+                    <!-- Section Titile -->
+                    <div class="col-md-6 mea-title-section wow animated slideInLeft text-center" data-wow-delay=".2s">
+                        
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <img src="assets/images/testimonial/testimonial-1.png" alt="" class="img-fluid" width="200" height="200">
+
                     </div>
                     <!-- Section Quote -->
-                    <div class="col-md-6 col-sm-12 mea-section-quote wow animated slideInRight" data-wow-delay=".2s">
+                    <div class="col-md-6 mea-section-quote wow animated slideInRight mt-100" data-wow-delay=".2s">
                         <div id="testimonial-carousel" class="owl-carousel owl-theme">
                             <!-- Single Testimonial -->
                             <div class="item active">
                                 <!-- Quote -->
                                 <div class="testomonial-quote">
                                     <blockquote>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quos distinctio quisquam consectetur non consequuntur porro debitis sed temporibus dolor ipsa rem minima, aspernatur eos fugit laudantium quo, doloribus tempore.</p>                                    </blockquote>
-                                </div> 
+<p>
+        विशेष अनुभव: श्री. कुलकर्णी वय ८४ वर्षे, दोन्ही गुडघे,
+        पाय, पिंडच्या ८ वर्षापासुन दुखत होते. दोन्ही गुडघ्यांना
+        सुज आली होती व गुडघ्यातुन करकर आवाज येत
+        होतो,नडग्या वाकड्या झाल्या होत्या. वॉकर शिवाय
+        चालु शकत नव्हतो. डॉ. व्होरांना दाखवुन त्यांनी
+        दिलेल्या तेलाने ३ वेळा मॉलिश केले. आयुर्वेदिक
+        गोळ्या घेतल्यावर १ महिन्यात १०% फरक पडला.
+        २ महिन्यात ४०% फरक पडला. वॉकरची आवश्यकता
+        लागली नाही. काठी घेऊन चालु लागलो.
+        ४ महिन्याच्या उपचारानंतर सर्व तक्रारी कमी झाल्या.
+        
+</p>                                </div> 
                                 <div class="testimonial-author">
                                     <div class="media">
                                         <div class="media-left">
                                            <img src="" class="img-circle" alt="">
                                         </div>
                                         <div class="media-body">
-                                            <h2 class="subtitle">Lorem ipsum</h2>
-                                            <p>Patient, lorem</p>
+                                            <h2 class="subtitle">श्री. कुलकर्णी, ८४ वर्षे</h2>
+                                            <p>Sakal Family Doctor, 21-12-2018</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -397,16 +727,25 @@
                                 <!-- Quote -->
                                 <div class="testomonial-quote">
                                     <blockquote>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quos distinctio quisquam consectetur non consequuntur porro debitis sed temporibus dolor ipsa rem minima, aspernatur eos fugit laudantium quo, doloribus tempore.</p>                                    </blockquote>
-                                </div> 
+<p>
+        अन्भवः सौ. डिसील्वा, वय ४५ वर्षे, सावंतवाडी (सिंधुदुर्ग)
+        मला तीन वर्षापासुन चक्कर येणे, तोल जाणे, डोके दुखणे 
+        ( मायग्रेन ), खांदे दुखणे व मुंग्या येण्याच्या तक्रारी होत्या.
+        त्यासाठी बऱ्याच प्रकारचे उपचार केले परंतु फायदा झाला नाही.
+        डॉ.व्होरा यांना पुण्याला दाखवल्यावर त्यांनी दिलेली आर्युवेदिक
+        औषधे चालु केल्यावर १ महिन्यात ३०% फरक जाणवला ४
+        महिन्याच्या उपचारानंतर सर्व तक्रारी बऱ्या झाल्या व आता
+        कुठलाही त्रास नाही.
+        
+</p>                                </div> 
                                 <div class="testimonial-author">
                                     <div class="media">
                                         <div class="media-left">
                                            <img src="" class="img-circle" alt="">
                                         </div>
                                         <div class="media-body">
-                                            <h2 class="subtitle">Lorem ipsum</h2>
-                                            <p>Patient, lorem</p>
+                                            <h2 class="subtitle">सौ. डिसील्वा, ४५ वर्षे</h2>
+                                            <p>Sakal Family Doctor, 7-12-2018</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -416,16 +755,23 @@
                                 <!-- Quote -->
                                 <div class="testomonial-quote">
                                     <blockquote>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quos distinctio quisquam consectetur non consequuntur porro debitis sed temporibus dolor ipsa rem minima, aspernatur eos fugit laudantium quo, doloribus tempore.</p>                                    </blockquote>
-                                </div> 
+<p>
+        अन्भवः सौ.सावंत (सावंतवाडी - सिंधुदुर्ग) वय - ७८ दोन्ही
+        कानात दोन वर्षांपासुन काटकुट, भात्याचा सतत आवाज येत
+        होता. ऐकायला कमी येत होते व दोन्ही पाय दुखत होते.
+        डॉ.व्होरांच्या आयुर्वेदिक उपचाराने २ महिन्यात ५०% फरक
+        पडला. ५ महिन्याच्या उपचारानंतर कर्णनाद, पाय दुखणे पुर्ण
+        थांबले. ऐकु येण्यामध्ये सुधारणा झाली.
+        
+</p>                                </div> 
                                 <div class="testimonial-author">
                                     <div class="media">
                                         <div class="media-left">
                                            <img src="" class="img-circle" alt="">
                                         </div>
                                         <div class="media-body">
-                                            <h2 class="subtitle">Lorem ipsum</h2>
-                                            <p>Patient, lorem</p>
+                                            <h2 class="subtitle">सौ.सावंत (सावंतवाडी - सिंधुदुर्ग), ७८ वर्षे</h2>
+                                            <p>Sakal Family Doctor, 7-12-2018</p>
                                         </div>
                                     </div>
                                 </div> 
@@ -437,56 +783,80 @@
         </section>
         <!-- Testimonial Section End -->
 
-        <!-- Our Clients Section -->
-        <section class="mea-clients-section section-padding section-dark">
+        <!-- Our Gallery Section -->
+        <section class="section-padding section-dark" id="gallery">
+
             <div class="container">
-                <div class="row">
-                    <!-- Section Titile -->
-                    <div class="col-md-6 mea-title-section wow animated slideInLeft" data-wow-delay=".2s">
-                       
-                        <h1 class="section-title">Gallery</h1>
-                        <div class="section-image clearfix mt-100">
-                            <img src="assets/images/section-image2.png" class="mt-100 img-responsive" alt="Thumbs Up Icon">
+
+                    <div class="row">
+                            <div class="col-md-12 ">
+                                <h1 class="section-title wow animated slideInRight "  data-wow-delay=".3s">Gallery</h1>
+                                <div class="border"></div>
+
+                            </div>
+                        </div>
+
+
+                <div class="row mt-100">
+                    
+                    <div class="col-md-6 text-center">
+                        
+                        <div class="row">
+                            <div class="col-md-6">
+                                    <div class="text-center">Before</div>
+                                   
+                                <div class="gal-pad10">
+
+                                        
+                                            <img src="assets/images/gallery/photo1.jpeg" class="img-fluid rotate" width="160" style="max-width: 100%; transform: rotate(270deg); overflow:  hidden" >                                       
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                    <div class="text-center">After</div>
+                                    
+                                    <div class="gal-pad10">
+
+                                            <img src="assets/images/gallery/photo2.jpeg" class="img-fluid rotate" width="175" style="max-width: 100%; transform: rotate(270deg); overflow:  hidden" >
+                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <h4 class="mar-top-less">Lorem ipsum.</h4>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="col-md-6">
+                                    <div class="text-center">Before</div>
+                                    
+                                    <div class="gal-pad10">
+
+                                            <img src="assets/images/gallery/photo3.jpeg" class="img-fluid"  style="max-width: 100%; height: 350px;" >
+                                    </div>
+                            </div>
+                            <div class="col-md-6">
+                                    <div class="text-center">After</div>
+                                    
+                                    <div class="gal-pad10">
+
+                                            <img src="assets/images/gallery/photo4.jpeg" class="img-fluid" style="max-width: 100%;" >
+                                    </div>
+                            </div>
+                            <div class="row">
+                                    <div class="col-md-12">
+    
+                                        <h4>Lorem ipsum.</h4>
+                                    </div>
+                                </div>
                         </div>
                     </div>
-                    <div class="client-container col-md-6 mt-40 clearfix wow animated slideInRight" data-wow-delay=".2s">
-                        <!-- Single Client Image -->
-                        <div class="col-md-4">
-                            <div class="single-client-image active">
-                                <img src="assets/images/clients/client1.png" class="img-responsive" alt="">
+                    <div class="col-md-6 text-center">
+                            <div class="gal-pad10">
+                                    <img src="assets/images/gallery/pink-photo.jpeg" class="img-fluid" style="max-width: 100%;" >
                             </div>
-                        </div>
-                        <!-- Single Client Image -->
-                        <div class="col-md-4">
-                            <div class="single-client-image">
-                                <img src="assets/images/clients/client2.png" class="img-responsive" alt="">
-                            </div>
-                        </div>
-                        <!-- Single Client Image -->
-                        <div class="col-md-4">
-                            <div class="single-client-image">
-                                <img src="assets/images/clients/client3.png" class="img-responsive" alt="">
-                            </div>
-                        </div>
-                        <!-- Single Client Image -->
-                        <div class="col-md-4">
-                            <div class="single-client-image">
-                                <img src="assets/images/clients/client4.png" class="img-responsive" alt="">
-                            </div>
-                        </div>
-                        <!-- Single Client Image -->
-                        <div class="col-md-4">
-                            <div class="single-client-image">
-                                <img src="assets/images/clients/client5.png" class="img-responsive" alt="">
-                            </div>
-                        </div>
-                        <!-- Single Client Image -->
-                        <div class="col-md-4">
-                            <div class="single-client-image">
-                                <img src="assets/images/clients/client6.png" class="img-responsive" alt="">
-                            </div>
-                        </div>
                     </div>
+    
                 </div>
             </div>
         </section>
@@ -499,64 +869,135 @@
 
         <!-- Our BLog Section -->
         
-        <!-- Our BLog Section End -->
-
-
+        <!-- Our BLog Section End #contact-us .container .row h1 -->
 
 
         <!-- Contact Us Section -->
-        <section class="mea-contact-section section-padding section-dark">
-            <div class="container">
-                <div class="row">
-                    <!-- Section Titile -->
-                    <div class="col-md-6 mea-title-section wow animated slideInLeft" data-wow-delay=".2s">
-                        
-                        <h1 class="section-title">Contact Us</h1>
-                        <div class="section-image mt-100 clearfix">
-                            <img src="assets/images/section-image3.png" class="mt-100 img-responsive" alt="Thumbs Up Icon">
-                        </div>
+        <section class="mea-contact-section section-padding" id="contact-us">
 
-                    </div>
-                    <!-- contact form -->
-                    <div class="col-md-6 mt-50 wow animated slideInRight" data-wow-delay=".2s">
-                        <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
-                            <!-- Name -->
-                            <div class="form-group label-floating">
-                              <label class="control-label" for="name">Name</label>
-                              <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
-                              <div class="help-block with-errors"></div>
+                <div class="container">
+                        <div class="row">
+                                <div class="col-md-12 ">
+                                    <h1 class="section-title wow animated slideInRight "  data-wow-delay=".3s">Contact Us</h1>
+                                    <div class="border"></div>
+                                </div>
                             </div>
-                            <!-- email -->
-                            <div class="form-group label-floating">
-                              <label class="control-label" for="email">Email</label>
-                              <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
-                              <div class="help-block with-errors"></div>
+                    <div class="row mt-100">
+
+                        <!-- contact form -->
+                        <div class="col-md-4 wow fadeInUp animated"  data-wow-delay=".1s">
+                                <form class="shake" role="form" method="post" id="contactForm" name="contact-form" data-toggle="validator">
+                                    <!-- Name -->
+                                    <div class="form-group label-floating">
+                                      <label class="control-label" for="name">Name</label>
+                                      <input class="form-control" id="name" type="text" name="name" required data-error="Please enter your name">
+                                      <div class="help-block with-errors"></div>
+                                    </div>
+                                    <!-- phone -->
+                                    <div class="form-group label-floating">
+                                      <label class="control-label" for="msgphone">Phone No</label>
+                                      <input class="form-control" id="msg_phone" type="text" name="phone" required data-error="Please enter your phone no.">
+                                      <div class="help-block with-errors"></div>
+                                    </div>
+                                    <!-- email -->
+                                    <div class="form-group label-floating">
+                                      <label class="control-label" for="email">Email</label>
+                                      <input class="form-control" id="email" type="email" name="email" required data-error="Please enter your Email">
+                                      <div class="help-block with-errors"></div>
+                                    </div>
+                                    <!-- Message -->
+                                    <div class="form-group label-floating">
+                                        <label for="message" class="control-label">Message</label>
+                                        <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                    <!-- Form Submit -->
+                                    <div class="form-submit mt-20">
+                                        <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons">&#xE0C9;</i> Send Message</button>
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </form>
                             </div>
-                            <!-- Subject -->
-                            <div class="form-group label-floating">
-                              <label class="control-label" for="msgSubject">Subject</label>
-                              <input class="form-control" id="msg_subject" type="text" name="subject" required data-error="Please enter your message subject">
-                              <div class="help-block with-errors"></div>
+
+
+
+                        <!-- Section Titile -->
+                        <div class="col-md-8 contact-widget-section">
+                            <!-- Single Contact Widget -->
+                            <div class="col-md-4 wow fadeInUp animated"  data-wow-delay=".4s">
+                                <div class="single-contact-widget">
+                                    <h3><i class="material-icons">&#xE0C8;</i> Pune Address</h3>
+                                    <address >
+                                        <p id="line-height-more1">114 C, Swamipuram Building, Near Ambil odha colony, Opposite SPM English School, Lokmanya Nagar Area, Sadashiv Peth, Pune, Maharashtra 411030</p>
+                                    </address>
+                                </div>
                             </div>
-                            <!-- Message -->
-                            <div class="form-group label-floating">
-                                <label for="message" class="control-label">Message</label>
-                                <textarea class="form-control" rows="3" id="message" name="message" required data-error="Write your message"></textarea>
-                                <div class="help-block with-errors"></div>
+                            <!-- Single Contact Widget -->
+                            <div class="col-md-4 wow fadeInUp animated"  data-wow-delay=".5s">
+                                <div class="single-contact-widget">
+                                    <h3><i class="material-icons">phone</i> Phone</h3>        
+                                    <address id="line-height-less">
+                                            <p>08390087991</p>
+                                            <p>09422001773</p>
+                                            
+                                    </address>
+                                    <h3><i class="material-icons">schedule</i> Opening Hours</h3>        
+                                    <address id="line-height-less2">
+                                        <p>Mon - Sat: 10 AM - 1 PM and 6 PM - 9 PM</p>
+                                        <p>Sun: Closed</p>
+                                    </address>
+
+                                </div>
                             </div>
-                            <!-- Form Submit -->
-                            <div class="form-submit mt-20">
-                                <button class="btn btn-common" type="submit" id="form-submit"><i class="material-icons">&#xE0C9;</i> Send Message</button>
-                                <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                <div class="clearfix"></div>
+                            <!-- Single Contact Widget -->
+                            <div class="col-md-4 wow fadeInUp animated"  data-wow-delay=".6s">
+                                <div class="single-contact-widget" id="no-pad-dir1">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d668.8330516445349!2d73.84653911230299!3d18.506697103821242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1e21e4e8e15%3A0x8cc414167711c057!2sDr+Sunil+Vora+Vora+Clinic!5e0!3m2!1sen!2sin!4v1545543994297" width="220" height="260" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
                             </div>
-                        </form>
+                            <!-- Single Contact Widget -->
+                            <div class="col-md-4 wow fadeInUp animated"  data-wow-delay=".4s">
+                                <div class="single-contact-widget">
+                                    <h3><i class="material-icons">&#xE0C8;</i> Mumbai Address</h3>
+                                    <address >
+                                        <p id="line-height-more2">Dadar (East)</p>
+                                    </address>
+                                </div>
+                            </div>
+                            <!-- Single Contact Widget -->
+                            <div class="col-md-4 wow fadeInUp animated"  data-wow-delay=".5s">
+                                <div class="single-contact-widget">
+                                    <h3><i class="material-icons">phone</i> Phone</h3>        
+                                    <address id="line-height-less3">
+                                            <p>08390087991</p>
+                                            <p>09422001773</p>                                            
+                                    </address>
+                                    <h3><i class="material-icons">schedule</i> Opening Hours</h3>        
+                                    <address id="line-height-less4">
+                                        <p>1st and 3rd Sun</p>
+                                        <p>Mon-Sat: Closed</p>
+                                    </address>
+                                </div>
+                            </div>
+
+                                <!-- Single Contact Widget -->
+                            <div class="col-md-4 wow fadeInUp animated"  data-wow-delay=".9s">
+                                <div class="single-contact-widget" id="no-pad-dir2">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d668.8330516445349!2d73.84653911230299!3d18.506697103821242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1e21e4e8e15%3A0x8cc414167711c057!2sDr+Sunil+Vora+Vora+Clinic!5e0!3m2!1sen!2sin!4v1545543994297" width="220" height="260" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+    
+                        
                     </div>
                 </div>
-            </div>
-        </section>
-        <!-- Contact Us Section End -->
+    
+            </section>
+            <!-- Contact Us Section End -->
+    
 
+        
         <!-- Footer Section -->
         <footer class="mea-footer-section">
             <!-- Footer Widget Container -->
@@ -641,8 +1082,109 @@
       <script src="assets/js/form-validator.min.js"></script>
       <script src="assets/js/contact-form-script.min.js"></script>
       <script src="assets/js/wow.js"></script>
-	  <script src="assets/js/jquery.slicknav.js"></script>
+      <script src="assets/js/jquery.slicknav.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
       <script src="assets/js/main.js"></script>
+
+      <script>
+      
+    //   modal
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').focus()
+        })
+
+        // BS lightbox gallery
+        $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+            event.preventDefault();
+            $(this).ekkoLightbox();
+        });
+
+
+        // Smooth scroll snippet
+        // Select all links with hashes
+        $('a[href*="#"]')
+        // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function(event) {
+            // On-page links
+            if (
+            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+            && 
+            location.hostname == this.hostname
+            ) {
+            // Figure out element to scroll to
+            var target = $(this.hash);
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+            // Does a scroll target exist?
+            if (target.length) {
+                // Only prevent default if animation is actually gonna happen
+                event.preventDefault();
+                $('html, body').animate({
+                scrollTop: target.offset().top
+                }, 1000, function() {
+                // Callback after animation
+                // Must change focus!
+                var $target = $(target);
+                $target.focus();
+                if ($target.is(":focus")) { // Checking if the target was focused
+                    return false;
+                } else {
+                    $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                    $target.focus(); // Set focus again
+                };
+                });
+            }
+            }
+        });
+
+        // to collapse menu bar after hyperlink is clicked
+        // $(document).ready(function () {
+        //     $(".navbar-nav li a").click(function(event) {
+        //       $(".navbar-collapse").collapse('hide');
+        //     });
+        //   });
+
+        // Mobile Navigation
+  if( $('#nav-menu-container').length ) {
+      var $mobile_nav = $('#nav-menu-container').clone().prop({ id: 'mobile-nav'});
+      $mobile_nav.find('> ul').attr({ 'class' : '', 'id' : '' });
+      $('body').append( $mobile_nav );
+      $('body').prepend( '<button type="button" id="mobile-nav-toggle"><i class="fa fa-bars"></i></button>' );
+      $('body').append( '<div id="mobile-body-overly"></div>' );
+      $('#mobile-nav').find('.menu-has-children').prepend('<i class="fa fa-chevron-down"></i>');
+      
+      $(document).on('click', '.menu-has-children i', function(e){
+          $(this).next().toggleClass('menu-item-active');
+          $(this).nextAll('ul').eq(0).slideToggle();
+          $(this).toggleClass("fa-chevron-up fa-chevron-down");
+      });
+      
+      $(document).on('click', '#mobile-nav-toggle', function(e){
+          $('body').toggleClass('mobile-nav-active');
+          $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
+          $('#mobile-body-overly').toggle();
+      });
+      
+      $(document).click(function (e) {
+          var container = $("#mobile-nav, #mobile-nav-toggle");
+          if (!container.is(e.target) && container.has(e.target).length === 0) {
+             if ( $('body').hasClass('mobile-nav-active') ) {
+                  $('body').removeClass('mobile-nav-active');
+                  $('#mobile-nav-toggle i').toggleClass('fa-times fa-bars');
+                  $('#mobile-body-overly').fadeOut();
+              }
+          }
+      });
+  } else if ( $("#mobile-nav, #mobile-nav-toggle").length ) {
+      $("#mobile-nav, #mobile-nav-toggle").hide();
+  }
+    
+      
+ 
+
+
+      </script>
 
     </body>
 </html>

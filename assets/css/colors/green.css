@@ -57,14 +57,14 @@ li.sub-menu .sub-menu-panel a:hover, li.sub-menu .sub-menu-panel a:focus, li.sub
   border-left: 3px solid #43A047;
 }
 
-#nav-main li.active a.nav-link {
-  border-bottom: 3px solid #43A047 !important;
+/* #nav-main li.active a.nav-link {
+  border-bottom: 3px solid #43A047 ;
   color: #43A047;
-}
+} */
 
-#nav-main li.active a.nav-link:hover {
+/* #nav-main li.active a.nav-link:active {
   color: rgba(67, 160, 71, 0.7);
-}
+} */
 
 .work-counter-widget i {
   color: #43A047;

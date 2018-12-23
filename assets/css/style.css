@@ -71,9 +71,10 @@ a a:focus {
 .section-title {
   font-size: 48px;
   font-weight: 700;
-  position: absolute;
+  position: relative;
   text-transform: capitalize;
   top: 26px;
+  text-align: center;
 }
 
 .subtitle {
@@ -123,7 +124,7 @@ a a:focus {
 }
 
 .section-dark {
-  background-color: #f9f9f9;
+  background-color: #eee;
   z-index: -2;
 }
 
@@ -304,6 +305,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   animation-name: fadeInDown;
 }
 
+
+
 .site-logo {
   position: absolute;
   top: 20px;
@@ -314,6 +317,10 @@ a.back-to-top:hover, a.back-to-top:focus {
   font-weight: 700;
   font-size: 34px;
   line-height: 10px;
+}
+
+.navbar-default.affix .site-logo h2 {
+  color: #43A047;
 }
 
 .affix .site-logo {
@@ -425,6 +432,16 @@ ul li > ul > li.active > a {
   .slicknav_menu {
     display: block;
   }
+
+
+
+
+  #main-slide .item img {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+  }
+
 }
 /* SlickMenu responsive */
 @media screen and (max-width: 640px) {
@@ -462,12 +479,18 @@ ul li > ul > li.active > a {
 }
 
 #nav-main li.active a.nav-link {
+  /* border-bottom: 3px solid #43A047 ;
+  color: #43A047; */
   background-color: transparent;
-  transition: 0.3s all ease-in-out;
+  transition: 0.2s all ease-in-out;
   -webkit-transition: 0.3s all ease-in-out;
   -moz-transition: 0.3s all ease-in-out;
   -o-transition: 0.3s all ease-in-out;
   -ms-transition: 0.3s all ease-in-out;
+}
+
+#nav-main li.active a.nav-link:active{
+  
 }
 
 .sub-menu-panel {
@@ -631,6 +654,10 @@ li.sub-menu .sub-menu-panel a:hover, li.sub-menu .sub-menu-panel a:focus, li.sub
   -ms-transition: 0.3s all ease-in-out;
 }
 
+#main-slide{
+  linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+}
+
 #main-slide .carousel-control {
   display: none;
   transition: all 0.3s ease-in-out;
@@ -650,7 +677,8 @@ li.sub-menu .sub-menu-panel a:hover, li.sub-menu .sub-menu-panel a:focus, li.sub
 #main-slide .item img {
   position: relative;
   width: 100%;
-  max-height: 670px;
+  height: 670px;
+  
 }
 
 #main-slide .carousel-inner .item::after {
@@ -1415,7 +1443,7 @@ figure.single-portfolio:hover figcaption {
 .contact-widget-section .single-contact-widget:hover {
   background: #fff;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.46);
-  cursor: pointer;
+  
   transition: all 0.3s ease-in-out;
 }
 
@@ -1948,4 +1976,119 @@ figure.single-portfolio:hover figcaption {
 
 .portfolio-details-section .portfolio-details .portfolio-meta li i:hover {
   opacity: 0.6;
+}
+
+
+/* Custom styles */
+
+.pri-color {
+  color: #43A047;
+}
+
+.box-shadow {
+  transition: box-shadow .2s;
+  border-radius:10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.box-shadow:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+
+.modal-dialog {
+  margin: 10vh auto 0px auto
+}
+
+
+.gal-pad10{
+  padding: 10px;
+}
+
+
+img .rotate {
+  transform: rotate(90deg);
+}
+
+
+
+.media-body h2 {
+  padding-top: 5px;
+}
+
+.contact-widget-section .single-contact-widget{
+  padding: 15px;
+}
+
+.contact-widget-section .single-contact-widget i {
+  font-size: 25px;
+  position: relative;
+  top: 5px;
+}
+
+.contact-widget-section .single-contact-widget h3 {
+  font-size: 18px;
+  color: #212121;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+
+#line-height-more1, #line-height-more2 {
+  line-height: 24px;
+}
+
+#line-height-less1 p, #line-height-less2 p,  #line-height-less3 p, #line-height-less4 p, {
+  line-height: 14px;
+}
+
+#no-pad-dir1, #no-pad-dir2 {
+  padding: 0;
+}
+
+
+.border {
+  height: 3px;
+  margin: 20px auto 20px;
+  position: relative;
+  top: 25px;
+  width: 150px;
+  background: rgb(67, 160, 71);
+}
+
+
+
+blockquote p {
+  line-height: 30px;
+}
+
+
+
+.gal-disease-name{
+  position: relative;
+  right: 130px;
+  top: 15px;
+}
+
+
+.mar-top-less{
+  margin-top: -20px;
+}
+
+/* 
+#testimonial .container {
+  background-image: url(../images/testimonal/test-cover.jpg);
+} */
+
+
+@media screen and (max-width: 767px) {
+ 
+
+
+
+  #main-slide .item img {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+  }
+
 }
