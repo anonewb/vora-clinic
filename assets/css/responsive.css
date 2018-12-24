@@ -1,7 +1,6 @@
 /**
  * desktop first edia query
  * same breakpoints as bootstrap
- * sagir.hossain.524@gmail.com
  */
 /* large desktops or only large desktops */
 /* small desktops */
@@ -22,6 +21,10 @@
     margin-bottom: 50px;
   }
 }
+
+
+
+
 
 /* only small tablets */
 /* mobile or only mobile */
@@ -80,12 +83,15 @@
     border-left-color: #fff;
   }
   .slider-content .btn-common {
-    font-size: 8px;
-    padding: 3px 9px;
+    font-size: 15px;
+    padding: 10px 15px;
   }
+  .btn-common{
+    font-weight: 100;
+  }
+
   .btn-default{
     font-size: 8px;
-    padding: 3px 9px;
   }
   .affix .nav-open a.nav-link {
     padding: 0px 48px !important;
@@ -180,4 +186,15 @@
     color: #333 !important;
     opacity: 0.6;
   }
+
+
+  /* custom styles */
+
+  #main-slide .item img {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+  }
+
+
 }

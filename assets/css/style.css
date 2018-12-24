@@ -1,7 +1,6 @@
 @charset "UTF-8";
-@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900';
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto Slab', serif;
   background: #fff;
   font-size: 14px;
   font-weight: 400;
@@ -60,7 +59,7 @@ a a:focus {
   text-align: center;
 }
 
-.mea-section-quote blockquote {
+.vora-section-quote blockquote {
   border-left-width: 2px;
 }
 
@@ -380,10 +379,13 @@ a.back-to-top:hover, a.back-to-top:focus {
   margin-top: 10px;
   color: #333;
   background: none;
+  transition: 0.2s all ease-in-out;
 }
 
 .affix #nav-main a.nav-link:hover {
-  color: rgba(0, 0, 0, 0.6);
+  color: #43A047;
+  
+
 }
 
 .affix #nav-main a.nav-link:focus, .affix #nav-main a.nav-link:active {
@@ -455,7 +457,7 @@ ul li > ul > li.active > a {
     top: 5px;
   }
   .affix .site-logo{
-    top: 5px!important;
+    top: 10px!important;
   }
 }
 #nav-main li:last-child a.nav-link {
@@ -464,7 +466,8 @@ ul li > ul > li.active > a {
 
 #nav-main li a.nav-link:hover, #nav-main li a.nav-link:focus, #nav-main li a.nav-link:active {
   border-bottom: 3px solid trasparent;
-  opacity: 0.7;
+  opacity: 0.9;
+  color: #43A047;
   background-color: transparent;
   z-index: 5000;
   transition: 0.3s all ease-in-out;
@@ -475,7 +478,8 @@ ul li > ul > li.active > a {
 }
 
 #nav-main li:hover > a.nav-link {
-  opacity: 0.7;
+  opacity: 0.9;
+  color: #43A047;
 }
 
 #nav-main li.active a.nav-link {
@@ -764,7 +768,7 @@ li.sub-menu .sub-menu-panel a:hover, li.sub-menu .sub-menu-panel a:focus, li.sub
   border-radius: 50%;
   transition: all 500ms ease;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
-  opacity: 0.6;
+  opacity: 1;
 }
 
 #main-slide .carousel-control i:hover {
@@ -930,7 +934,7 @@ figure.single-portfolio:hover figcaption {
           animation: 0.4s ease 0s normal none 1 running fadeInUpMenu;
 }
 
-#mea-portfolio .mix {
+#vora-portfolio .mix {
   display: none;
 }
 
@@ -990,7 +994,7 @@ figure.single-portfolio:hover figcaption {
   display: inline-block;
 }
 
-.mea-our-team-section {
+.vora-our-team-section {
   padding-bottom: 200px;
 }
 
@@ -1157,51 +1161,51 @@ figure.single-portfolio:hover figcaption {
   transition: all 0.2s ease-in-out;
 }
 
-.mea-blog-post-page .blog-post-column .single-blog-post {
+.vora-blog-post-page .blog-post-column .single-blog-post {
   margin-bottom: 40px;
 }
 
-.mea-blog-post-page .blog-post-column .single-blog-post .post-meta .post-date {
+.vora-blog-post-page .blog-post-column .single-blog-post .post-meta .post-date {
   position: absolute;
 }
 
-.mea-blog-post-page .blog-post-column .single-blog-post .post-meta .post-date span {
+.vora-blog-post-page .blog-post-column .single-blog-post .post-meta .post-date span {
   color: #212121;
   font-weight: 700;
   font-size: 16px;
   text-transform: uppercase;
 }
 
-.mea-blog-post-page .blog-post-column .single-blog-post .post-meta .read-more-icon {
+.vora-blog-post-page .blog-post-column .single-blog-post .post-meta .read-more-icon {
   bottom: 166px;
   position: absolute;
   right: 40px;
 }
 
-.mea-blog-post-page .blog-post-column .single-blog-post .post-meta h2 {
+.vora-blog-post-page .blog-post-column .single-blog-post .post-meta h2 {
   font-size: 19px;
   line-height: 26px;
   margin-top: 35px;
 }
 
-.mea-blog-post-page .blog-post-column .post-without-image .featured-image {
+.vora-blog-post-page .blog-post-column .post-without-image .featured-image {
   height: 50px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
 }
 
-.mea-blog-post-page .blog-post-column .post-without-image .pink-bg {
+.vora-blog-post-page .blog-post-column .post-without-image .pink-bg {
   background: #5e35b1;
 }
 
-.mea-blog-post-page .blog-post-column .post-without-image .blue-bg {
+.vora-blog-post-page .blog-post-column .post-without-image .blue-bg {
   background: #1e88e5;
 }
 
-.mea-blog-post-page .blog-post-column .post-without-image .aqua-bg {
+.vora-blog-post-page .blog-post-column .post-without-image .aqua-bg {
   background: #00897b;
 }
 
-.mea-blog-post-page .blog-post-column .quote-post h2 {
+.vora-blog-post-page .blog-post-column .quote-post h2 {
   font-style: italic;
 }
 
@@ -1729,15 +1733,15 @@ figure.single-portfolio:hover figcaption {
   color: #18191b;
 }
 
-.mea-tab-default img {
+.vora-tab-default img {
   width: 100%;
 }
 
-.mea-tab-default ul.nav.nav-tabs {
+.vora-tab-default ul.nav.nav-tabs {
   border-bottom: 0;
 }
 
-.mea-tab-default ul.nav.nav-tabs li a {
+.vora-tab-default ul.nav.nav-tabs li a {
   color: #333;
   font-weight: 700;
   font-size: 18px;
@@ -1749,30 +1753,30 @@ figure.single-portfolio:hover figcaption {
   margin-right: 29px;
 }
 
-.mea-tab-default ul.nav.nav-tabs li a:hover {
+.vora-tab-default ul.nav.nav-tabs li a:hover {
   background: none;
 }
 
-.mea-tab-default .tab-content {
+.vora-tab-default .tab-content {
   margin-top: 25px;
   padding: 20px;
   background: #FAFAFA;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
 }
 
-.mea-default-accordion .panel-default {
+.vora-default-accordion .panel-default {
   border: 0;
 }
 
-.mea-default-accordion .panel-default .panel-heading {
+.vora-default-accordion .panel-default .panel-heading {
   padding: 0;
 }
 
-.mea-default-accordion .panel-default .panel-heading .collapsed::after {
+.vora-default-accordion .panel-default .panel-heading .collapsed::after {
   content: "";
 }
 
-.mea-default-accordion .panel-default .panel-heading a {
+.vora-default-accordion .panel-default .panel-heading a {
   font-weight: 500;
   padding: 15px 20px;
   display: inline-block;
@@ -1782,7 +1786,7 @@ figure.single-portfolio:hover figcaption {
   text-decoration: none;
 }
 
-.mea-default-accordion .panel-default .panel-heading a:after {
+.vora-default-accordion .panel-default .panel-heading a:after {
   font-family: FontAwesome;
   content: "";
   position: absolute;
@@ -1794,19 +1798,19 @@ figure.single-portfolio:hover figcaption {
   margin-top: -7px;
 }
 
-.mea-accordion-2 .panel-default {
+.vora-accordion-2 .panel-default {
   border: 0;
 }
 
-.mea-accordion-2 .panel-default .panel-heading {
+.vora-accordion-2 .panel-default .panel-heading {
   padding: 0;
 }
 
-.mea-accordion-2 .panel-default .panel-heading .collapsed::after {
+.vora-accordion-2 .panel-default .panel-heading .collapsed::after {
   content: "";
 }
 
-.mea-accordion-2 .panel-default .panel-heading a {
+.vora-accordion-2 .panel-default .panel-heading a {
   font-weight: 500;
   padding: 15px 20px;
   display: inline-block;
@@ -1817,7 +1821,7 @@ figure.single-portfolio:hover figcaption {
   text-decoration: none;
 }
 
-.mea-accordion-2 .panel-default .panel-heading a:after {
+.vora-accordion-2 .panel-default .panel-heading a:after {
   font-family: FontAwesome;
   content: "";
   position: absolute;
@@ -1906,12 +1910,12 @@ figure.single-portfolio:hover figcaption {
   padding: 20px 0;
 }
 
-#mea-image-carousel .item img {
+#vora-image-carousel .item img {
   height: 235px;
   width: 258px;
 }
 
-#mea-image-carousel .owl-pagination {
+#vora-image-carousel .owl-pagination {
   text-align: center;
   margin-top: 10px;
 }
@@ -1921,13 +1925,13 @@ figure.single-portfolio:hover figcaption {
   margin-top: 10px;
 }
 
-.mea-error-section h1 {
+.vora-error-section h1 {
   font-size: 10em;
   font-weight: 700;
   letter-spacing: 0.3rem;
 }
 
-.mea-error-section h2 {
+.vora-error-section h2 {
   font-size: 3em;
   font-weight: 500;
   color: #999999;
@@ -2000,9 +2004,7 @@ figure.single-portfolio:hover figcaption {
 }
 
 
-.gal-pad10{
-  padding: 10px;
-}
+
 
 
 img .rotate {
@@ -2071,24 +2073,71 @@ blockquote p {
 
 
 .mar-top-less{
-  margin-top: -20px;
+  margin-top: -30px;
 }
 
-/* 
-#testimonial .container {
-  background-image: url(../images/testimonal/test-cover.jpg);
+
+section#testimonial {
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/testimonial/test-cover.jpg);
+  background-size: cover;
+  color: #fff;
+  background-attachment: fixed;
+}
+
+
+/* section#contact-us {
+  background-color: #008000; /* For browsers that do not support gradients */
+  background-image: radial-gradient(#008000, #00c000, #b4ff85); /* Standard syntax (must be last) */
+    
+  /* color: #fff; */
+  
 } */
 
 
-@media screen and (max-width: 767px) {
- 
 
-
-
-  #main-slide .item img {
-    position: relative;
-    width: 100%;
-    height: 70vh;
-  }
-
+.services-photo img {
+  opacity: 1;
+  /* width: 100%;
+  height: auto; */
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all 3s;
 }
+
+.services-photo img:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  opacity: 0.8;
+}
+
+#service {
+  padding-bottom: 80px;
+}
+
+.gal-photo {
+  padding: 10px;
+}
+
+.gal-photo img {
+  opacity: 1;
+  /* width: 100%;
+  height: auto; */
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .3s;
+}
+
+.gal-photo img:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 0.8;
+}
+

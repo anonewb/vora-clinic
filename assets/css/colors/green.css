@@ -11,7 +11,7 @@ a:hover {
   color: #43A047;
 }
 
-.mea-section-quote blockquote {
+.vora-section-quote blockquote {
   border-left-color: #43A047;
 }
 
@@ -122,12 +122,12 @@ li.sub-menu .sub-menu-panel a:hover, li.sub-menu .sub-menu-panel a:focus, li.sub
   opacity: 1;
 }
 
-.mea-tab-default ul.nav.nav-tabs li.active a {
+.vora-tab-default ul.nav.nav-tabs li.active a {
   color: #43A047;
   border-bottom: 3px solid #43A047;
 }
 
-.mea-default-accordion .panel-default .panel-heading a {
+.vora-default-accordion .panel-default .panel-heading a {
   background-color: #43A047;
 }
 
@@ -147,7 +147,7 @@ li.sub-menu .sub-menu-panel a:hover, li.sub-menu .sub-menu-panel a:focus, li.sub
   background-color: #43A047;
 }
 
-.mea-error-section h1 {
+.vora-error-section h1 {
   color: #43A047;
 }
 
