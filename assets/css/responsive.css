@@ -196,5 +196,13 @@
     height: 70vh;
   }
 
+  #gal-mob-small img {
+    max-width: 275px !important;
+  }
+
+  .gal-mar-top-pink{
+    margin-top: 50px;
+  }
+
 
 }
