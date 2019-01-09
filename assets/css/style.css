@@ -1,8 +1,8 @@
 @charset "UTF-8";
 body {
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Libre Baskerville', serif;
   background: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   box-sizing: border-box;
   -webkit-font-smoothing: subpixel-antialiased;
@@ -25,6 +25,7 @@ a a:focus {
 }
 
 .hero-heading {
+  font-family: 'Yeseva One', cursive;
   font-size: 56px;
   font-weight: 700;
   color: #fff;
@@ -68,6 +69,7 @@ a a:focus {
 }
 
 .section-title {
+  font-family: 'Libre Baskerville', serif;
   font-size: 48px;
   font-weight: 700;
   position: relative;
@@ -312,6 +314,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .site-logo h2 {
+  font-family: 'Yeseva One', cursive;
   color: #fff;
   font-weight: 700;
   font-size: 34px;
@@ -1451,7 +1454,7 @@ figure.single-portfolio:hover figcaption {
 }
 
 #contactForm .form-group label.control-label {
-  color: #8c8c8c;
+  color: #000;
 }
 
 #contactForm .form-control {
@@ -2154,5 +2157,36 @@ section#testimonial {
   -ms-transform: scale(1);
   transform: scale(1);
   opacity: 0.8;
+}
+
+.shake {
+  padding: 50px;
+}
+
+.no-dec-payment {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.pad-left-payment {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.lg-font-size-payment {
+  font-size: 17px;
+}
+
+.vora-about-section, .vora-contact-section {
+
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/cover-image-2.png);
+  background-size: cover;
+  /* color: #fff; */
+  /* background-attachment: fixed; */
+
+  /* background: radial-gradient(1.5em 6.28571em at 1.95em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(1.5em 6.28571em at -0.45em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 1.5em 5.5em, radial-gradient(2.3em 4.57143em at 2.99em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(2.3em 4.57143em at -0.69em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 55%, rgba(255, 255, 255, 0) 55%) 2.3em 4em, radial-gradient(3.5em 6.28571em at 4.55em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 0 0, radial-gradient(3.5em 6.28571em at -1.05em, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0.25) 50%, rgba(255, 255, 255, 0.25) 55%, rgba(255, 255, 255, 0) 55%) 3.5em 5.5em, radial-gradient(#15ffa5, #00ced1);
+  background-color: rgb(67, 160, 71);
+  background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em, 3.5em 11em, 3.5em 11em, 100% 100%;
+  background-repeat: repeat; */
 }
 
