@@ -6,7 +6,7 @@ body {
   font-weight: 400;
   box-sizing: border-box;
   -webkit-font-smoothing: subpixel-antialiased;
-  color: #212121;
+  color: #000;
   line-height: 25px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -104,7 +104,7 @@ a a:focus {
 .contact-title {
   font-weight: 700;
   font-size: 38px;
-  color: #212121;
+  color: #000;
 }
 
 .btn-common {
@@ -335,7 +335,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .okayNav__nav--invisible {
-  background: #212121;
+  background: #000;
   box-shadow: -2px 0px 2px #efefef;
   position: absolute !important;
 }
@@ -438,7 +438,9 @@ ul li > ul > li.active > a {
     display: block;
   }
 
-
+  #for-mob-mar-top {
+    margin-top: 50px;
+  }
 
 
   #main-slide .item img {
@@ -502,7 +504,7 @@ ul li > ul > li.active > a {
 
 .sub-menu-panel {
   display: none;
-  background: #212121 !important;
+  background: #000 !important;
   margin-top: -3px;
   transition: 0.3s all ease-in-out;
   -webkit-transition: 0.3s all ease-in-out;
@@ -536,7 +538,7 @@ li.sub-menu .sub-menu-panel a {
   margin: 3px 0;
   padding: 8px 25px;
   display: block;
-  border-left: 3px solid #212121;
+  border-left: 3px solid #000;
   transition: 0.3s all ease-in-out;
   -webkit-transition: 0.3s all ease-in-out;
   -moz-transition: 0.3s all ease-in-out;
@@ -648,12 +650,12 @@ li.sub-menu .sub-menu-panel a:hover, li.sub-menu .sub-menu-panel a:focus, li.sub
 
 .navbar-2 li.sub-menu .sub-menu-panel a:hover {
   background: #ECF0F1;
-  color: #212121;
+  color: #000;
 }
 
 .navbar-2 li.sub-menu .sub-menu-panel a:hover, .navbar-2 li.sub-menu .sub-menu-panel a:focus, .navbar-2 li.sub-menu .sub-menu-panel a.active {
   background: #ECF0F1;
-  color: #212121;
+  color: #000;
   transition: 0.3s all ease-in-out;
   -webkit-transition: 0.3s all ease-in-out;
   -moz-transition: 0.3s all ease-in-out;
@@ -1156,7 +1158,7 @@ figure.single-portfolio:hover figcaption {
 }
 
 .single-blog-post .post-meta a {
-  color: #212121;
+  color: #000;
 }
 
 .single-blog-post .post-meta a:hover {
@@ -1172,7 +1174,7 @@ figure.single-portfolio:hover figcaption {
 }
 
 .vora-blog-post-page .blog-post-column .single-blog-post .post-meta .post-date span {
-  color: #212121;
+  color: #000;
   font-weight: 700;
   font-size: 16px;
   text-transform: uppercase;
@@ -1285,7 +1287,7 @@ figure.single-portfolio:hover figcaption {
   background: #ddd;
   border-radius: 19px !important;
   padding: 0 18px;
-  color: #212121;
+  color: #000;
   font-weight: 700;
   width: 240px;
 }
@@ -1437,7 +1439,7 @@ figure.single-portfolio:hover figcaption {
 
 .contact-widget-section .single-contact-widget h3 {
   font-size: 20px;
-  color: #212121;
+  color: #000;
   font-weight: 700;
   padding-bottom: 10px;
 }
@@ -1709,13 +1711,13 @@ figure.single-portfolio:hover figcaption {
 }
 
 .work-counter-widget .counter span {
-  color: #212121;
+  color: #000;
   font-size: 52px;
   font-weight: 700;
 }
 
 .work-counter-widget .counter p {
-  color: #212121;
+  color: #000;
 }
 
 .call-to-action-section {
@@ -2047,7 +2049,7 @@ img .rotate {
 
 .contact-widget-section .single-contact-widget h3 {
   font-size: 18px;
-  color: #212121;
+  color: #000;
   font-weight: 600;
   padding-bottom: 5px;
 }
