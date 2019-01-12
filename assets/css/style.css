@@ -10,6 +10,7 @@ body {
   line-height: 25px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  overflow-x: hidden;
 }
 
 a {
@@ -738,11 +739,11 @@ li.sub-menu .sub-menu-panel a:hover, li.sub-menu .sub-menu-panel a:focus, li.sub
 }
 
 #main-slide .carousel-control.left span {
-  padding: 15px;
+  /* padding: 15px; */
 }
 
 #main-slide .carousel-control.right span {
-  padding: 15px;
+  /* padding: 15px; */
 }
 
 #main-slide .carousel-control {
