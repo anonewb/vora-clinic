@@ -314,15 +314,15 @@ a.back-to-top:hover, a.back-to-top:focus {
   top: 20px;
 }
 
-.site-logo h2 {
+.site-logo h1 {
   font-family: 'Yeseva One', cursive;
-  color: #43A047;
+  color: #fff;
   font-weight: 700;
   font-size: 34px;
   line-height: 10px;
 }
 
-.navbar-default.affix .site-logo h2 {
+.navbar-default.affix .site-logo h1 {
   color: #43A047;
 }
 
@@ -330,7 +330,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   top: 5px;
 }
 
-.affix .site-logo h2 {
+.affix .site-logo h1 {
   color: #333;
   font-size: 28px;
 }
@@ -608,7 +608,7 @@ li.sub-menu .sub-menu-panel a:hover, li.sub-menu .sub-menu-panel a:focus, li.sub
   opacity: 0.6;
 }
 
-.navbar-2 .site-logo h2 {
+.navbar-2 .site-logo h1 {
   color: #333;
   font-weight: 700;
   font-size: 34px;
@@ -623,7 +623,7 @@ li.sub-menu .sub-menu-panel a:hover, li.sub-menu .sub-menu-panel a:focus, li.sub
   top: 18px !important;
 }
 
-.affix .navbar-2 .site-logo h2 {
+.affix .navbar-2 .site-logo h1 {
   color: #333;
   font-weight: 700;
   font-size: 34px;
@@ -2185,7 +2185,7 @@ section#testimonial {
 
 .vora-about-section, .vora-contact-section {
 
-  background-image: linear-gradient(rgba(211,211,211,0.9), rgba(211,211,211,0.9)), url(../images/cover-image-2.jpg);
+  background-image: linear-gradient(rgba(211,211,211,0.9), rgba(211,211,211,0.9)), url(../images/cover-image-2.jpeg);
   background-size: cover;
   /* color: #fff; */
   /* background-attachment: fixed; */
