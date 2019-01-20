@@ -19,6 +19,7 @@ a {
 
 a:hover {
   text-decoration: none;
+  opacity: 0.6;
 }
 
 a a:focus {
@@ -38,7 +39,7 @@ a a:focus {
 .hero-sub-heading {
   font-size: 20px;
   font-weight: 400;
-  color: #e6e6e6;
+  color: #fff;
   line-height: 45px;
   letter-spacing: 0.1rem;
 }
@@ -1447,7 +1448,7 @@ figure.single-portfolio:hover figcaption {
 }
 
 .contact-widget-section .single-contact-widget p {
-  line-height: 16px;
+  line-height: 17px;
 }
 
 .contact-widget-section .single-contact-widget:hover {
@@ -1517,7 +1518,7 @@ figure.single-portfolio:hover figcaption {
 }
 
 .footer-widget-container .single-footer-widget p {
-  color: #777;
+  color: #ddd;
 }
 
 .footer-widget-container .recent-news-widget ul li:last-child {
@@ -2166,7 +2167,7 @@ section#testimonial {
 }
 
 .shake {
-  padding: 50px;
+  /* padding: 50px; */
 }
 
 .no-dec-payment {
@@ -2193,3 +2194,17 @@ section#testimonial {
 }
 
 
+#btn-wa {
+  border: 2px solid #43a047;
+  background-color: white;
+  color: #43a047;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+#btn-wa:hover {
+  opacity: 0.8;
+}
